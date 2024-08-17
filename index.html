@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+      padding:0px;
+      margin: 0px;
+    }
+    .header{
+        background-color: aquamarine;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        height: 50px;
+        align-items: center;
+        position: sticky;
+        top: 0;
+    }
+    div a{
+        margin-right: 40px;
+        font-weight: 800;
+        text-decoration: none;
+        color: beige;
+    }
+    .content:hover{
+        background-color: blue;
+        padding: 7px;
+    }
+    .gourmet:hover {
+        background-color: bisque;
+        padding: 7px;
+        }
+        .bg{
+            background-image: url(https://www.w3schools.com/W3CSS/img_hamburger.jpg);
+            width: 100%;
+            height: 700px;
+            display: flex;
+            align-items: center;
+        }
+        .section1{
+            display: flex;
+            justify-content: space-evenly;
+            height: 760px;
+            width: 100%;
+            background-color: azure;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        .aboutcatering{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-content: space-between;
+            gap: 40px;
+            flex-basis: 30%;
+            text-align: justify;
+
+
+        }
+        .section2{
+            background-color: chartreuse;
+            height: 720px;
+            display: flex;
+            justify-content: space-evenly;
+            padding-top: 50px;
+        }
+        .menu{
+            display: flex;
+            flex-direction: column;
+            width: 30%;
+            gap: 30px;
+        }
+        .item{
+            font-size: 20px;
+            font-weight: 700;
+
+        }
+        .menu span{
+            text-align: start;
+        }
+        .dis{
+            color: chocolate;
+
+        }
+        #ourmenu{
+            font-size: 40px;
+            letter-spacing: 5px;
+            text-align: center;
+            text-shadow: 1px 10px 8px blanchedalmond;
+
+        }
+        .section3{
+            background-color: darkgray;
+            height: 720px;
+
+        }
+        .section3{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-content: space-evenly;
+
+        }
+        .contact{
+            width: 70%;
+            display: flex;
+            flex-direction: column;
+            gap: 50px;
+            padding-left:150px;
+        }
+        .inputs{
+            display: flex;
+            flex-direction: column;
+            width: 70%;
+            padding-left: 150px;
+        }
+        .inputs input{
+            height: 60px;
+            outline: none;
+            padding-left: 30px;
+            outline: none;
+        }
+        footer{
+            width: 100%;
+            height:90px ;
+            background-color:olivedrab;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+
+</style>
+
+<body>
+    <header class="header">
+    <div>
+        <span class="gourmet"
+        style="font-weight: 800; margin-left: 40px;
+        color: darkkhaki; font-size: 18px; letter-spacing: 2px;">gourmet cattering</span>
+
+    </div>
+    <div>
+        <a href="#" class="content">about</a>
+        <a href="#" class="content">menu</a>
+        <a href="#" class="content">contact</a>
+    </div>
+    </header>
+    <main>
+        <div class="bg">
+            <span style="font-size: 50px; margin-left: 50px; margin-bottom: 50px; color: deeppink;">le catering</span>
+            
+        </div>
+        <section class="section1">
+            <div>
+                <img style="margin-left: 60px; height: 600px;" src="https://www.w3schools.com/W3CSS/img_tablesetting2.jpg" alt=""></img>
+            </div>
+            <div class="aboutcatering">
+                <div style="font-size: 40px;
+                margin-top: 60px;
+                margin-left: 15%;
+                letter-spacing: 5px;
+                text-shadow: 1px 10px 8px black;"> aboutcatering</div>
+                <div style="letter-spacing: 5px; margin-left: 20%;"> tradition since 1889</div>
+                <div>The Catering was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet, consectetur adipiscing elit consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+                </div>
+                <div style="color: rgba(0, 0, 0, 0.86);">
+                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod temporincididunt ut labore et dolore magna aliqua.
+
+
+                </div></div>
+                
+        </section>
+        <section class="section2">
+            <div class="menu">
+                <div id="ourmenu">ourmenu</div>
+                <span class="item">breadbasket</span>
+                <span class="dis">Assortment of fresh baked fruit breads and muffins 5.50
+
+                </span>
+                <span class="item">honey almond granola with fruits</span>
+                <span class="dis">Scrambled eggs, roasted red pepper and garlic, with green onions 7.50
+
+                </span>
+                <span class="item">belgian waffle</span>
+                <span class="dis">Vanilla flavored batter with malted flour 7.50
+
+                </span>
+                <span class="item">Scrambled eggs</span>
+                <span class="dis">Scrambled eggs, roasted red pepper and garlic, with green onions 7.50
+
+                </span>
+                <span class="item">blueberry pan cake</span>
+                <span class="dis">With syrup, butter and lots of berries 8.50
+
+                </span>
+                 </div>
+                 <div>
+                    <img style="height: 600px;width: 45opx;"
+                     src="https://www.w3schools.com/W3CSS/img_tablesetting.jpg" alt="">
+                 </div>
+        </section>
+        <section class="section3">
+            <div class="contact">
+                <div style="font-size: 40px; letter-spacing: 5px; margin-bottom: 30px;">
+                    contact
+                    
+                </div>
+                <span>We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste. Do not hesitate to contact us.</span>
+                <div style="color: rgba(136, 46, 46, 0.937); font-weight: 700;">Catering Service, 42nd Living St, 43043 New York, NY</div>
+                <span>You can also contact us by phone 00553123-2323 or email catering@catering.com, or send us a message here:</span>
+
+            </div>
+            <div class="inputs">
+                <input type="text" placeholder="Name" required>
+                <input type="text" name="" id="" placeholder="How many people" required>
+                <input type="datetime-local" name="" id="" style="padding-right: 30px;" required>
+                <input type="text" name="" id="" placeholder="message/specials required">
+                <button style="width: 150px; margin-top: 30px; height: 50px;">send message</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <span>powered by <u>w3.school</u></span>
+    </footer>
+    
+</body>
+</html>
